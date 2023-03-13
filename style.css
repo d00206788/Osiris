@@ -286,15 +286,15 @@ h2 {
 table {
   width: 100%;
   justify-content: center;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 th, td {
-  padding: 15px;
+  padding: 8px;
   text-align: left;
   border-bottom: 2px solid yellow;
-  font-size: 20px;
+  font-size: 25px;
   
 }
 
@@ -320,11 +320,11 @@ th, td {
   }
 }
 
-@media screen and (max-width: 600px) {
-  table {
-    width: 100%;
-    padding: 5px;
-  }
+@media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .table {
+        padding-right: 90px;
+    }
 }
 
 
