@@ -283,12 +283,14 @@ h2 {
   }
 }
 
+#tablewrapper {
+    justify-content: center;
+  display: flex;
+}
+
 table {
-  justify-content: center;
-  padding-right: 50px;
-  padding-left: 50px;
   table-layout: fixed;
-    width: 300px;
+  width: 50%;
 }
 
 th, td {
@@ -321,10 +323,14 @@ th, td {
   }
 }
 
-@@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     table {
-        padding-left: 0px;
-        width: 50%;
+        width: 100%;
+        padding: 30px;
+    }
+
+    td {
+      word-wrap: break-word;
     }
 }
 
