@@ -320,7 +320,7 @@ th, td {
   }
 }
 
-@@media only screen and (max-width: 620px) {
+@@media only screen and (max-width: 600px) {
     table {
         padding-left: 0px;
         width: 50%;
