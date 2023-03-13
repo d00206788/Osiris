@@ -319,3 +319,10 @@ th, td {
   }
 }
 
+@media screen and (max-width: 600px) {
+  table {
+    width: 100px;
+    padding: 15px;
+  }
+}
+
