@@ -321,7 +321,7 @@ th, td {
 
 @media screen and (max-width: 600px) {
   table {
-    width: 100px;
+    width: 100%;
     padding: 15px;
   }
 }
