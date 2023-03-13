@@ -321,8 +321,9 @@ th, td {
 
 @media only screen and (max-width: 620px) {
     /* horizontal scrollbar for tables if mobile screen */
-    .table {
-        padding-right: 90px;
+    table {
+        width: 50%;
+        padding-left: 5px;
     }
 }
 
