@@ -299,7 +299,6 @@ th, td {
 #socials {
   display: flex;
   justify-content: center;
-  margin-top: 12%;
 }
 
 #socials img {
@@ -325,4 +324,5 @@ th, td {
     padding: 5px;
   }
 }
+
 
