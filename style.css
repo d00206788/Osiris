@@ -284,10 +284,11 @@ h2 {
 }
 
 table {
-  width: 100%;
   justify-content: center;
   padding-right: 50px;
   padding-left: 50px;
+  table-layout: fixed;
+    width: 300px;
 }
 
 th, td {
