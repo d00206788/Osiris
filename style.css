@@ -140,6 +140,13 @@ ul li:hover {
   #header img {
       height: 90px;
   }
+
+      td, th {
+      word-wrap: break-word;
+      padding: 0;
+      width: 13%;
+      table-layout:fixed
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 650px){
@@ -181,16 +188,16 @@ ul li:hover {
       padding-top: 50px;
     }
 
-    td {
-      word-wrap: break-word;
-    }
-
-
+}
 
 
 #socials {
   width: 100%;
 
+}
+
+table {
+  width: 200px;
 }
 
 
