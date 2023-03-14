@@ -32,19 +32,6 @@ body {
   border: 5px solid #ffe900;
 }
 
-/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 812px) {
-  .column {
-    -ms-flex: 100%; /* IE10 */
-  flex: 100%;
-  max-width: 100%;
-  padding-right:10px;
-  }
-
-
-
-}
-
 .gallery_text {
   text-align: center;
   font-weight: bold;
@@ -121,6 +108,14 @@ ul li:hover {
 
 
 @media only screen and (max-width: 812px){
+
+  .column {
+    -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
+  padding-right:10px;
+  }
+
   header nav {
     position: block;
     width: 100%;
@@ -144,8 +139,50 @@ ul li:hover {
   #header img {
       height: 90px;
   }
+}
+
+@media only screen and (max-width: 480px){
+  header nav {
+    position: block;
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  header {
+        height: 200px;
+        width: 100%;
+  }
+
+  header ul {
+    display: block;
+
+  }
+
+  #header h1 {
+    font-size: 25px;
+  }
+
+  #header img {
+      height: 70px;
+  }
+
+  ul a {
+    font-size: 18px;
+  }
+
+  .gallery_text {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 
 }
+
 
 
 
@@ -331,5 +368,7 @@ th, td {
       word-wrap: break-word;
     }
 }
+
+
 
 
