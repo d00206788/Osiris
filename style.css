@@ -5,6 +5,7 @@
 body {
   overflow-x: hidden;
   height: 100%;
+  width: 100%;
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: #808080;
@@ -141,7 +142,7 @@ ul li:hover {
   }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 600px) and (max-width: 650px){
   header nav {
     position: block;
     float: left;
@@ -171,40 +172,31 @@ ul li:hover {
     font-size: 18px;
   }
 
-  .gallery_text {
-  text-align: center;
-  font-weight: bold;
-  color: black;
-  font-size: 22px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-  
-  table {
-        width: 100%;
-        padding: 2px;
+    .gallery_text {
+      text-align: center;
+      font-weight: bold;
+      color: black;
+      font-size: 22px;
+      padding-bottom: 50px;
+      padding-top: 50px;
     }
 
     td {
       word-wrap: break-word;
     }
-  
-      #tablewrapper {
-      width: 100%;
-      padding: 2px;
-    }
+
+
+
+
+#socials {
+  width: 100%;
+
+}
+
 
 
 
 }
-
-#tablewrapper {
-  float: left;
-  width: 20%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
 
 
 
@@ -334,20 +326,20 @@ h2 {
 }
 
  
-@media only screen and (max-width: 812px) {
-  /* For mobile phones: */
-  .body {
-    width: 100%;
-  }
-}
 
 #tablewrapper {
     justify-content: center;
-  display: flex;
+    display: table;
+    align-items: center;
+    width: 100%;
 }
 
 table {
-  width: 50%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  table-layout: fixed;
+
 }
 
 th, td {
@@ -380,16 +372,7 @@ th, td {
   }
 }
 
-@media only screen and (max-width: 812px) {
-    table {
-        width: 50%;
-        padding: 30px;
-    }
 
-    td {
-      word-wrap: break-word;
-    }
-}
 
 
 
