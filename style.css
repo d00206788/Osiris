@@ -5,6 +5,7 @@
 body {
   overflow-x: hidden;
   height: 100%;
+  width: 100%
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: #808080;
@@ -181,8 +182,8 @@ ul li:hover {
 }
   
   table {
-        width: 50%;
-        padding: 30px;
+        width: 100%;
+        padding: 2px;
     }
 
     td {
