@@ -198,6 +198,13 @@ ul li:hover {
 
 }
 
+#tablewrapper {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
 
 
 
