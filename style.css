@@ -145,11 +145,13 @@ ul li:hover {
       word-wrap: break-word;
       padding: 0;
       width: 13%;
-      table-layout:fixed
+      table-layout:fixed;
+      font-size: 20px;
+
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 650px){
+@media only screen and (min-width: 414px) and (max-width: 650px){
   header nav {
     position: block;
     float: left;
@@ -188,16 +190,20 @@ ul li:hover {
       padding-top: 50px;
     }
 
+    table {
+      width: 50%;
+    }
+
+    th, td {
+      font-size: 20px;
+    }
+
 }
 
 
 #socials {
   width: 100%;
 
-}
-
-table {
-  width: 200px;
 }
 
 
