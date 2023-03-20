@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -8,6 +9,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: #808080;
+
 }
 
 .row {
@@ -175,14 +177,19 @@ ul li:hover {
 
 }
 
+.title {
+  font-size: 20px;
+  padding: 5px;
+}
 
 
 
 .column-about {
   float: left;
   width: 20%;
-  margin-bottom: 16px;
   padding: 0 8px;
+  text-align: center;
+
 }
 
 @media screen and (max-width: 812px) {
@@ -200,6 +207,8 @@ ul li:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   background-color: #5A5A5A;
+  height: 915px;
+
 }
 
 @media screen and (max-width: 812px) {
@@ -238,14 +247,11 @@ ul li:hover {
 .button {
   border: none;
   outline: 0;
-  display: inline-block;
-  padding: 2px;
+
   color: #ffe900;
   text-align: center;
   cursor: pointer;
-  width: 100%;
-  background-color: #5A5A5A;
-
+   background-color: Transparent;
 }
 
 @media screen and (max-width: 812px) {
@@ -255,9 +261,9 @@ ul li:hover {
 }
 
 .button img {
-  width: 38px;
+  width: 40px;
   border: none;
-  padding: 5px;
+ text-align: center;
 }
 
 
@@ -343,9 +349,4 @@ padding: 15px;
   padding: 20px;
   max-width: 100%;
 }
-
-
-
-
-
 
