@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 
@@ -185,22 +187,19 @@ ul li:hover {
 
 .column-about {
   float: left;
-  width: 20%;
+  width: 100%;
   height: 100%;
   text-align: center;
   padding: 5px;
-
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 812px) {
-  .column-about {
-    width: 100%;
-    padding-right: 25px;
-  }
-}
+
 
 .column-about img {
   border: 5px solid #ffe900;
+  width: 100%;
 }
 
 .card {
@@ -208,15 +207,26 @@ ul li:hover {
   margin: 8px;
   background-color: #5A5A5A;
   padding-bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 5px;
 
 }
 
 @media screen and (max-width: 912px) {
   .card {
+    flex-direction:row;
     width: 100%;
-    height: 100%;
     word-wrap: break-word;
     align-items: stretch;
+    text-align: center;
+  }
+
+  .column-about {
+      display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+  padding-left: 5px;
   }
 }
 
@@ -362,3 +372,11 @@ footer {
     left: 0;
     right: 0;
 }
+
+
+
+
+
+
+
+
